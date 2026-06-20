@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>威廉希尔 · 主题知识库</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #fcfaf5;
+            font-family: 'Georgia', 'Times New Roman', 'Noto Serif SC', serif;
+            color: #2f2e2a;
+            line-height: 1.75;
+            padding: 2.4rem 1.8rem;
+        }
+
+        .page-wrapper {
+            max-width: 1080px;
+            margin: 0 auto;
+            background: #fdfcf8;
+            padding: 2.8rem 2.4rem;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.02);
+            border-radius: 20px;
+            border: 1px solid #ece9e2;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 500;
+            letter-spacing: 0.04em;
+            color: #2c2a26;
+            border-left: 5px solid #b7a78b;
+            padding-left: 1.2rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .subhead {
+            font-size: 1rem;
+            color: #7b756a;
+            margin-bottom: 2rem;
+            padding-left: calc(1.2rem + 5px);
+            border-bottom: 1px dashed #dad6ce;
+            padding-bottom: 1rem;
+        }
+
+        .grid-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem 2.8rem;
+            margin: 2rem 0 2.2rem;
+        }
+
+        @media (max-width: 700px) {
+            .page-wrapper {
+                padding: 1.6rem 1rem;
+            }
+            h1 {
+                font-size: 1.6rem;
+                padding-left: 0.8rem;
+            }
+            .grid-layout {
+                grid-template-columns: 1fr;
+                gap: 1.8rem;
+            }
+            body {
+                padding: 1rem 0.6rem;
+            }
+        }
+
+        .section-card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 1.6rem 1.8rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02), 0 0 0 1px #f0ede7 inset;
+        }
+
+        .section-card h2 {
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: #3b3832;
+            border-bottom: 1px solid #e5e0d7;
+            padding-bottom: 0.5rem;
+            letter-spacing: 0.02em;
+        }
+
+        .section-card p, .section-card li {
+            font-size: 0.98rem;
+            color: #4a4640;
+        }
+
+        .section-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .section-card li {
+            padding: 0.45rem 0 0.45rem 1.2rem;
+            position: relative;
+        }
+
+        .section-card li::before {
+            content: "·";
+            position: absolute;
+            left: 0;
+            color: #b7a78b;
+            font-weight: bold;
+        }
+
+        .highlight-box {
+            background: #f6f2ea;
+            border-left: 4px solid #c4b296;
+            padding: 1.2rem 1.6rem;
+            margin: 1.8rem 0 2rem;
+            border-radius: 0 12px 12px 0;
+            font-size: 0.96rem;
+            color: #3d3a34;
+        }
+
+        .highlight-box strong {
+            color: #4f4a40;
+        }
+
+        .link-sentence {
+            background: #ffffff;
+            padding: 1.2rem 1.6rem;
+            border-radius: 14px;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.02), inset 0 0 0 1px #e8e3da;
+            margin: 1.2rem 0 0.8rem;
+            font-size: 1rem;
+        }
+
+        .link-sentence a {
+            color: #6a5f4f;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #cfc6b8;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .link-sentence a:hover {
+            color: #2f2a22;
+            text-decoration-color: #a79882;
+        }
+
+        .faq-mini {
+            margin: 1.8rem 0 0.4rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .faq-item {
+            border-bottom: 1px dashed #e2ddd4;
+            padding: 0.6rem 0;
+        }
+
+        .faq-q {
+            font-weight: 500;
+            color: #2f2c27;
+            margin-bottom: 0.2rem;
+        }
+
+        .faq-a {
+            font-size: 0.92rem;
+            color: #625c54;
+            padding-left: 0.8rem;
+        }
+
+        .footer-note {
+            margin-top: 2.6rem;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #9f988d;
+            border-top: 1px solid #e2ddd4;
+            padding-top: 1.6rem;
+            letter-spacing: 0.02em;
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrapper">
+
+    <h1>威廉希尔 · 主题知识库</h1>
+    <div class="subhead">围绕品牌与行业语境的内容索引 · 简洁专业</div>
+
+    <div class="grid-layout">
+        <!-- 目录感区块 1：背景与定义 -->
+        <div class="section-card">
+            <h2>背景概述</h2>
+            <p>威廉希尔这一名称与体育赛事数据、竞猜文化及信息整合紧密关联。其平台提供涵盖全球主流联赛的实时资讯、统计与指数服务，长期服务于对体育分析有深度需求的用户群体。</p>
+            <p style="margin-top: 0.6rem;">在内容生态中，威廉希尔常被作为体育数据聚合的参照点，尤其聚焦赔率建模、赛事走势与信息透明度等主题。</p>
+        </div>
+
+        <!-- 目录感区块 2：核心特征 -->
+        <div class="section-card">
+            <h2>特征索引</h2>
+            <ul>
+                <li>覆盖足球、篮球、网球等十余项主流运动</li>
+                <li>动态概率模型与市场波动的可视化呈现</li>
+                <li>多语言赛事数据库，更新频率达分钟级</li>
+                <li>历史数据对比与趋势分析工具</li>
+                <li>社区讨论与专家观点聚合</li>
+            </ul>
+        </div>
+
+        <!-- 提示区（占满两列但在grid内可用独立行，这里用一整块grid外的highlight-box实现，更清晰） -->
+    </div>
+
+    <!-- 提示区：独立于grid之外，作为醒目提示框 -->
+    <div class="highlight-box">
+        <strong>提示：</strong> 在查阅任何体育数据或指数信息时，建议交叉验证多个信源。平台数据反映的是基于统计模型的概率推演，并非实际结果预测。理性看待波动，保持信息甄别意识。
+    </div>
+
+    <!-- 相关信息区 + FAQ 摘要，使用 flex 或单独结构 -->
+    <div style="display: flex; flex-wrap: wrap; gap: 1.8rem; margin-top: 0.6rem;">
+        <div style="flex: 1 1 260px; background: #ffffff; border-radius: 16px; padding: 1.4rem 1.6rem; box-shadow: 0 1px 8px rgba(0,0,0,0.02), 0 0 0 1px #f0ede7;">
+            <h2 style="font-size:1.1rem; font-weight:500; margin-bottom:0.8rem; color:#3b3832; border-bottom:1px solid #e5e0d7; padding-bottom:0.3rem;">相关信息</h2>
+            <ul style="list-style:none; padding:0; font-size:0.95rem;">
+                <li style="padding:0.3rem 0;">· 体育数据开放接口与调用限制</li>
+                <li style="padding:0.3rem 0;">· 概率模型 vs 市场情绪：差异解读</li>
+                <li style="padding:0.3rem 0;">· 常见赛事指数术语表</li>
+                <li style="padding:0.3rem 0;">· 移动端适配与实时推送机制</li>
+            </ul>
+        </div>
+        <div style="flex: 2 1 320px;">
+            <div style="background: #ffffff; border-radius: 16px; padding: 1.4rem 1.6rem; box-shadow: 0 1px 8px rgba(0,0,0,0.02), 0 0 0 1px #f0ede7;">
+                <h2 style="font-size:1.1rem; font-weight:500; margin-bottom:0.6rem; color:#3b3832; border-bottom:1px solid #e5e0d7; padding-bottom:0.3rem;">常见疑问摘要</h2>
+                <div class="faq-mini">
+                    <div class="faq-item">
+                        <div class="faq-q">威廉希尔数据更新频率如何？</div>
+                        <div class="faq-a">主要联赛实时数据每1-2分钟刷新，非高峰时段不超过5分钟。</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q">是否有历史赛事回溯功能？</div>
+                        <div class="faq-a">支持近三年主流联赛的完整数据回溯，含赔率变动曲线。</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q">如何理解“概率偏离”指标？</div>
+                        <div class="faq-a">指模型概率与市场共识概率之间的差值，常用于识别信息不对称区间。</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 自然嵌入 a 标签的句子，可见文本严格等于「威廉希尔」 -->
+    <div class="link-sentence">
+        若需深入了解该体系，可参考 <a href="https://portal--williamhill.com">威廉希尔</a> 提供的赛事数据库与指数解读模块，其中包含大量结构化的分类信息。
+    </div>
+
+    <!-- 额外说明区域（轻量总结） -->
+    <div style="margin-top: 1.2rem; padding: 0.8rem 0.4rem; font-size: 0.92rem; color: #666057; border-left: 2px solid #d5cec2; padding-left: 1.2rem;">
+        本页作为主题知识库入口，梳理与威廉希尔相关的背景、特征、数据提示及常见疑问，供信息检索者参考。内容基于公开资料与行业常识汇编，保持客观中立。
+    </div>
+
+    <div class="footer-note">
+        知识库 · 信息聚合索引 · 非官方页面
+    </div>
+
+</div>
+</body>
+</html>
