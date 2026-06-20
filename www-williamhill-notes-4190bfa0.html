@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于威廉希尔 · 产品说明</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f0f2f5;
+            color: #2d3a4a;
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* 卡片系统 */
+        .card {
+            background: #ffffff;
+            border-radius: 20px;
+            border: 1px solid #e4e8ee;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(0, 0, 0, 0.02);
+            padding: 2rem 2.2rem;
+            margin-bottom: 2rem;
+            transition: box-shadow 0.2s ease;
+        }
+        .card:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+        }
+
+        /* hero 区域 */
+        .hero {
+            text-align: center;
+            padding: 3.5rem 2rem 2.8rem;
+        }
+        .hero h1 {
+            font-size: 2.6rem;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+            color: #1f2a36;
+            margin-bottom: 0.75rem;
+        }
+        .hero p {
+            max-width: 600px;
+            margin: 0 auto;
+            color: #526172;
+            font-size: 1.1rem;
+        }
+
+        /* 网格布局 */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.8rem;
+        }
+
+        /* 小标签 */
+        .tag {
+            display: inline-block;
+            background: #eef1f6;
+            color: #3d4e62;
+            font-size: 0.8rem;
+            font-weight: 500;
+            padding: 0.2rem 0.8rem;
+            border-radius: 40px;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #1f2a36;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #2a3a4c;
+            margin-bottom: 0.6rem;
+        }
+
+        p, li {
+            color: #3f5166;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            position: relative;
+            padding-left: 1.6rem;
+            margin-bottom: 0.55rem;
+        }
+        li::before {
+            content: "⚬";
+            position: absolute;
+            left: 0.2rem;
+            color: #7b8ba0;
+            font-weight: 300;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #e9edf3;
+            padding: 1.1rem 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-item strong {
+            display: block;
+            margin-bottom: 0.25rem;
+            font-weight: 500;
+            color: #2a3a4c;
+        }
+
+        .note-box {
+            background: #f6f8fb;
+            border-radius: 16px;
+            padding: 1.2rem 1.6rem;
+            border-left: 3px solid #bac6d6;
+            font-size: 0.95rem;
+            color: #3f5166;
+        }
+
+        a {
+            color: #1f5080;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.15s;
+        }
+        a:hover {
+            border-bottom-color: #1f5080;
+        }
+
+        /* 响应式 */
+        @media (max-width: 720px) {
+            body {
+                padding: 1.2rem 0.8rem;
+            }
+            .card {
+                padding: 1.5rem 1.2rem;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .grid-2 {
+                grid-template-columns: 1fr;
+                gap: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- hero 摘要 -->
+    <div class="card hero">
+        <h1>威廉希尔 · 产品说明</h1>
+        <p>一个围绕体育与娱乐内容展开的综合性平台，整合赛事资讯、实时数据与互动体验。以下从功能亮点、使用场景与注意事项等方面做简要介绍。</p>
+    </div>
+
+    <!-- 核心亮点 -->
+    <div class="card">
+        <span class="tag">功能聚焦</span>
+        <h2>几个值得留意的特点</h2>
+        <div class="grid-2">
+            <div>
+                <h3>赛事覆盖广</h3>
+                <p>涵盖足球、篮球、网球等主流运动，并提供从联赛到杯赛的多层次比赛信息，方便用户快速找到感兴趣的内容。</p>
+            </div>
+            <div>
+                <h3>实时数据流</h3>
+                <p>比分更新、赛程变动、统计数据等以较低延迟呈现，帮助用户在关注比赛时获得更连贯的体验。</p>
+            </div>
+            <div>
+                <h3>界面简洁直观</h3>
+                <p>导航与内容分区经过梳理，重要信息层级清晰，减少寻找时间。无论是赛事列表还是详情页，都保持一致的视觉逻辑。</p>
+            </div>
+            <div>
+                <h3>多终端适配</h3>
+                <p>从桌面浏览器到移动设备，页面结构和交互均做了响应式适配，满足不同场景下的使用习惯。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 使用建议 + 场景 -->
+    <div class="card">
+        <span class="tag">场景参考</span>
+        <h2>日常使用的一些想法</h2>
+        <ul>
+            <li><strong>赛前浏览：</strong>在比赛开始前查看对阵信息、历史交锋与近期状态，建立对赛事的初步判断。</li>
+            <li><strong>赛中追踪：</strong>利用实时数据跟进场上变化，尤其适合无法观看直播但又希望掌握节奏的用户。</li>
+            <li><strong>赛后回顾：</strong>查看完整数据统计和事件记录，复盘关键节点，加深对比赛的理解。</li>
+            <li><strong>多项目切换：</strong>同时关注多个联赛或运动类型时，清晰的分类和收藏功能能省去反复查找的麻烦。</li>
+        </ul>
+        <div class="note-box" style="margin-top: 1.2rem;">
+            💡 以上场景均基于平台已有功能，实际体验可能因网络环境与设备性能略有差异。建议根据自身兴趣选择关注的内容类型。
+        </div>
+    </div>
+
+    <!-- 可信但克制的说明 -->
+    <div class="card">
+        <span class="tag">关于平台</span>
+        <h2>一些客观的说明</h2>
+        <p><a href="https://www--williamhill.com">威廉希尔</a> 是一个提供体育资讯与互动内容的在线平台。所有显示的数据、赛程、统计等信息均来自公开或授权渠道，平台本身不参与任何赛事组织或结果判定。</p>
+        <p style="margin-top: 1rem;">用户在使用过程中应充分了解：体育赛事信息具有时效性，平台尽力保证数据准确，但无法承诺绝对无误。同时，任何涉及资金或决策的行为，请基于个人判断与实际情况独立做出。</p>
+        <div class="note-box" style="margin-top: 1.2rem;">
+            ⚖️ 本页面仅作产品功能说明，不构成任何形式的建议、担保或诱导。请理性使用，量力而行。
+        </div>
+    </div>
+
+    <!-- FAQ 摘要 -->
+    <div class="card">
+        <span class="tag">常见疑问</span>
+        <h2>快速了解几个要点</h2>
+        <div class="faq-item">
+            <strong>是否需要注册才能浏览？</strong>
+            <p>部分公开内容（如赛事列表、基本数据）可直接查看，更详细的个性化功能可能需要注册账户。</p>
+        </div>
+        <div class="faq-item">
+            <strong>数据更新频率如何？</strong>
+            <p>实时数据通常每几秒至几十秒刷新一次，具体取决于比赛状态与信号来源。常规赛程每日同步。</p>
+        </div>
+        <div class="faq-item">
+            <strong>移动端体验完整吗？</strong>
+            <p>核心功能在手机浏览器上均可正常使用，个别复杂图表或长列表在窄屏上会做简化展示。</p>
+        </div>
+        <div class="faq-item">
+            <strong>遇到显示问题怎么办？</strong>
+            <p>建议先检查网络连接，或尝试刷新页面、清除缓存。若问题持续，可联系平台支持渠道。</p>
+        </div>
+        <div style="margin-top: 1rem; font-size: 0.95rem; color: #60748b;">
+            📌 更多细节请直接访问 <a href="https://www--williamhill.com">威廉希尔</a>，以实际页面展示为准。
+        </div>
+    </div>
+
+    <!-- 页脚留白 -->
+    <div style="text-align: center; padding: 1rem 0 0.5rem; font-size: 0.85rem; color: #8a9aad;">
+        &copy; 产品说明页 · 仅作信息参考
+    </div>
+</div>
+</body>
+</html>
